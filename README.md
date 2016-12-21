@@ -10,6 +10,8 @@ Please see the subfolders for their respective READMEs.
 
 **embedded** directory contains scripts related to embedded microcontroller projects
 
+**javascript** directory contains mixed HTML, CSS and Javascript content
+
 **python** directory contains python scripts
 
 **selfie-camera** directory contains code for a recent MikroBitti article (MB11/16)
