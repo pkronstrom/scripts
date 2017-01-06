@@ -32,7 +32,7 @@
 #include <TaskScheduler.h>
 
 #define SW1 4               // Rotary switch
-#define CAMERA_FOCUS   14   // -> optoisolator circuit
+#define CAMERA_FOCUS   A0   // -> optoisolator circuit
 #define CAMERA_SHUTTER 13   // -> optoisolator circuit
 
 #define DISPLAY_AUTOSLEEP_MS 15000  // sleep display on idle (after ms)
@@ -49,7 +49,7 @@ void displayWake();
 // logic variables
 int timelapseInterval = 0;
 bool timelapseRunning = false;
-bool focus = false;
+bool focus = true;
 int shootCount = 0;
 bool blit = true;
 uint8_t activityToggle = 0;
